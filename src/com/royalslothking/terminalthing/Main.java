@@ -135,7 +135,7 @@ public class Main{
           Commands.help();
 
         } else if (exitSRM.find()) {
-            return;
+            System.exit(0);
 
         } else if (s.equals("")){
             main(null);
